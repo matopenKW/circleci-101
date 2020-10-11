@@ -12,8 +12,8 @@ workflows:
   deploy:
     jobs:
       - deploy_job:
-        filters:
-          branches:
-            only:
-              - main
-              - develop
+          filters:
+            branches:
+              only:
+                - main
+                - develop
